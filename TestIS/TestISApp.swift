@@ -6,15 +6,21 @@
 //
 
 import SwiftUI
+//import IronSourceSDK
 
 @main
 struct TestISApp: App {
+    var ironSourceManager = IronSourceManager()
     var body: some Scene {
-        
-        //IronSource.initWithAppKey("kAPPKEY")
-        
         WindowGroup {
             ContentView()
         }
+    }
+}
+
+class IronSourceManager {
+    
+    init() {
+        IronSource.initWithAppKey("kAPPKEY")
     }
 }
