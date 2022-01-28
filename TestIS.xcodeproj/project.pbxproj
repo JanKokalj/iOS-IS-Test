@@ -11,7 +11,7 @@
 		3D452F6E27A30E46001BD20A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D452F6D27A30E46001BD20A /* ContentView.swift */; };
 		3D452F7027A30E48001BD20A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D452F6F27A30E48001BD20A /* Assets.xcassets */; };
 		3D452F7327A30E48001BD20A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D452F7227A30E48001BD20A /* Preview Assets.xcassets */; };
-		408F854B5C9CA8AB4EB2F79F /* Pods_TestIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B373FFACD5E35975EA563B7 /* Pods_TestIS.framework */; };
+		DDD6500BFA70310B45C404DB /* Pods_TestIS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7199AB2C307C15934BAB81B4 /* Pods_TestIS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +22,7 @@
 		3D452F6F27A30E48001BD20A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D452F7227A30E48001BD20A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3D452F7927A31FF5001BD20A /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		7B373FFACD5E35975EA563B7 /* Pods_TestIS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestIS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7199AB2C307C15934BAB81B4 /* Pods_TestIS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestIS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61FE0A9D0969AEAB91BEB58 /* Pods-TestIS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestIS.release.xcconfig"; path = "Target Support Files/Pods-TestIS/Pods-TestIS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -31,7 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				408F854B5C9CA8AB4EB2F79F /* Pods_TestIS.framework in Frameworks */,
+				DDD6500BFA70310B45C404DB /* Pods_TestIS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +41,7 @@
 		15652187ABDA617D060E8864 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7B373FFACD5E35975EA563B7 /* Pods_TestIS.framework */,
+				7199AB2C307C15934BAB81B4 /* Pods_TestIS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -337,7 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestIS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PODS_ROOT}/IronSourceSDK/IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/IronSource.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -367,7 +367,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.TestIS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "${PODS_ROOT}/IronSourceSDK/IronSource/IronSource.xcframework/ios-arm64_armv7/IronSource.framework/Versions/A/Headers/IronSource.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
